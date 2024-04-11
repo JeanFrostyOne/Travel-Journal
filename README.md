@@ -17,7 +17,7 @@
 
 - **External Data:** _The cards' information is loaded from an external JavaScript file, facilitating content management. Special attention is given to the dynamic rendering of the array from the data, allowing the application to efficiently handle updates and modifications to the list of destinations without requiring significant changes to the codebase. This approach not only streamlines content management but also showcases the flexibility and power of React in building dynamic user interfaces_
 
-`export default function Cards() {
+```export default function Cards() {
   return (
     <div className="container">
       {data.map((item, index) => {
@@ -26,4 +26,8 @@
     </div>
   );
 }
-`
+```
+
+**IMAGE**
+
+![travel-journal](./src/img/Travel-journal.png)
